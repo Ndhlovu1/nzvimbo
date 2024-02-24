@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom/cjs/react-router-dom.min';
-import Users from './user/pages/users';
+import Users from './user/pages/Users';
 import NewPlace from './places/pages/NewPlace';
 
 const App = () => {
@@ -23,10 +23,6 @@ const App = () => {
         {/* ALLOW A REDIRECT FOR NON-EXISTENT ROUTES */}
         <Redirect to = "/" />
       </Switch>
-
-
-
-
 
     
     </Router>   
