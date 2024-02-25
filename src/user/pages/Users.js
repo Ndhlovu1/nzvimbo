@@ -8,15 +8,16 @@ const Users = () => {
     const USERS = [
         {
             id: '1',
-            name: 'The-Back-End-Guru',
+            name: 'Tinomudaishe Ndhlovu',
             image: "https://ndhlovu1.github.io/img/me2.jpg",
-            places: 4
-        }
+            places: 2
+        },
+        
 ]
 
 
     return (
-        <UsersList users={USERS} />
+        <UsersList user={USERS} />
     )
 }
 

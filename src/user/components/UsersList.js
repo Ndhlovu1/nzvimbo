@@ -20,7 +20,7 @@ const UsersList = props => {
             image = {user_info.image}
             name = {user_info.name}
             // Show the number of places that the user has created
-            placeCout = {user_info.places}
+            placeCount = {user_info.places}
            
            />
         })}
